@@ -80,6 +80,16 @@
       "ConstraintDescription" : "must contain only alphanumeric characters."
     },
 
+    "DBSubnetGroup" : {
+      "NoEcho": "true",
+      "Description" : "DBSubneGroup Name",
+      "Type": "String",
+      "MinLength": "8",
+      "MaxLength": "41",
+      "AllowedPattern" : "[a-zA-Z0-9]*",
+      "ConstraintDescription" : "must contain only alphanumeric characters."
+    },
+
     "MultiAZDatabase": {
       "Default": "false",
       "Description" : "Create a Multi-AZ MySQL Amazon RDS database instance",
@@ -454,6 +464,7 @@
         "MasterUserPassword": { "Ref" : "DBPassword" },
         "DBInstanceClass"   : { "Ref" : "DBClass" },
         "AllocatedStorage"  : { "Ref" : "DBAllocatedStorage" },
+        "DBSubnetGroupName" : { "Ref" : "DBSubnetGroup"},
         "VPCSecurityGroups" : [{ "Fn::GetAtt": [ "DBEC2SecurityGroup", "GroupId" ]}]
       }
     }

@@ -5,6 +5,11 @@
 #Getting Started
 
 #Prerequisites
+- install aws cli on your local machine
+- create prod and dev VPCs and necessary private subnets in AWS
+- create an internet gateway and attach it to each VPC respectively
+- create DBSubnetGroups
+- create prod and dev ssh key pairs in AWS
 
 
 #Launch CFN stack
