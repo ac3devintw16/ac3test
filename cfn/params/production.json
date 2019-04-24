@@ -1,0 +1,38 @@
+[
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "abc123"
+  },
+  {
+    "ParameterKey": "Subnets",
+    "ParameterValue": "abc123"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "ac3testssh"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.small"
+  },
+  {
+    "ParameterKey": "DBClass",
+    "ParameterValue": "db.t2.small"
+  },
+  {
+    "ParameterKey": "DBName",
+    "ParameterValue": "prod-rds-mysql"
+  },
+  {
+    "ParameterKey": "DBUser",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "DBPassword",
+    "ParameterValue": "abc123"
+  },
+  {
+    "ParameterKey": "WebServerCapacity",
+    "ParameterValue": "2"
+  } 
+]
