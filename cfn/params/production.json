@@ -1,15 +1,15 @@
 [
   {
     "ParameterKey": "VpcId",
-    "ParameterValue": "abc123"
+    "ParameterValue": "vpc-0c80e45cb923bb85e"
   },
   {
     "ParameterKey": "Subnets",
-    "ParameterValue": "abc123"
+    "ParameterValue": "[ 'subnet-0dfcbb9a7c8cd04a2', 'subnet-08a4a1cca2b7e9209']"
   },
   {
     "ParameterKey": "KeyName",
-    "ParameterValue": "ac3testssh"
+    "ParameterValue": "prod-ac3"
   },
   {
     "ParameterKey": "InstanceType",
@@ -21,11 +21,11 @@
   },
   {
     "ParameterKey": "DBName",
-    "ParameterValue": "prod-rds-mysql"
+    "ParameterValue": "develop-rds-mysql"
   },
   {
     "ParameterKey": "DBUser",
-    "ParameterValue": ""
+    "ParameterValue": "ac3db"
   },
   {
     "ParameterKey": "DBPassword",
