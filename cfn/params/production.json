@@ -24,6 +24,10 @@
     "ParameterValue": "develop-rds-mysql"
   },
   {
+    "ParameterKey": "MultiAZDatabase",
+    "ParameterValue": "true"
+  },
+  {
     "ParameterKey": "DBUser",
     "ParameterValue": "ac3db"
   },

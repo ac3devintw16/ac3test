@@ -29,14 +29,22 @@ Modify the following Development and Production parameter files:
 - ~/cfn/params/develop.json
 - ~/cfn/params/production.json
 
-For Develop environment you may specify less number of EC2 instances:
+For Develop environment you may specify less number of EC2 instances and a RDS deploymet without MultiAZ as that level of redundancy would only be required in production:
 
 ```json
    {
     "ParameterKey": "WebServerCapacity",
     "ParameterValue": "1"
    }
+
+   {
+    "ParameterKey": "MultiAZDatabase",
+    "ParameterValue": "false"
+   }
+
 ```
+
+
 
 ## Launch CFN stack
 
