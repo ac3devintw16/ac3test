@@ -24,6 +24,10 @@
     "ParameterValue": "devRdsMysql"
   },
   {
+    "ParameterKey": "MultiAZDatabase",
+    "ParameterValue": "false"
+  },
+  {
     "ParameterKey": "DBSubnetGroup",
     "ParameterValue": "devdbsubnetgroup"
   },
