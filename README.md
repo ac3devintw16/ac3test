@@ -25,9 +25,18 @@ Navigate to "~/cfn/" directory
 
 ## Cloudformation parameter modification
 
-Modify the following Development and Production parameter files
+Modify the following Development and Production parameter files:
 - ~/cfn/params/develop.json
 - ~/cfn/params/production.json
+
+For Develop environment you may specify less number of EC2 instances:
+
+```json
+   {
+    "ParameterKey": "WebServerCapacity",
+    "ParameterValue": "1"
+   }
+```
 
 ## Launch CFN stack
 
