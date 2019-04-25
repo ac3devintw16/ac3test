@@ -2,10 +2,13 @@
 
 This cloudformation template installs a highly-available, scalable WordPress deployment using EC2, RDS managed services. 
 
-##Prerequisites
+## Prerequisites
 
 
-- install aws cli on your local machine
+- install aws cli on your local machine and run aws configure, follow the prompts and enter the necessary  AWS credentials:
+``` bash
+  aws configure
+```
 - create prod and dev VPCs and necessary private subnets in AWS
 - create an internet gateway and attach it to each VPC respectively
 - create DBSubnetGroups
@@ -14,6 +17,10 @@ This cloudformation template installs a highly-available, scalable WordPress dep
 ## Getting Started
 
 Clone this repository on your local machine:
+```bash
+  git clone https://github.com/ac3devintw16/ac3test.git
+```
+Navigate to "~/cfn/" directory
 
 
 ## Cloudformation parameter modification
@@ -22,7 +29,7 @@ Modify the following Development and Production parameter files
 - ~/cfn/params/develop.json
 - ~/cfn/params/production.json
 
-##Launch CFN stack
+## Launch CFN stack
 
 Launch Develop Stack
 ```bash
