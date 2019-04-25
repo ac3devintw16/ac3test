@@ -5,7 +5,7 @@
   },
   {
     "ParameterKey": "Subnets",
-    "ParameterValue": "[ 'subnet-0dfcbb9a7c8cd04a2', 'subnet-08a4a1cca2b7e9209']"
+    "ParameterValue": "subnet-0dfcbb9a7c8cd04a2,subnet-08a4a1cca2b7e9209"
   },
   {
     "ParameterKey": "KeyName",
